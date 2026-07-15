@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Plant Modelling Group"
+  favicon: images/favicon.png
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: outreach.qmd
+        text: Outreach
+      - href: publications.qmd
+        text: Publications
+      - href: people.qmd
+        text: People
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: lux
+    css: style.css
+    toc: true
+    page-layout: full

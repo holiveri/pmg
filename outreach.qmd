@@ -1,0 +1,9 @@
+---
+title: "Outreach"
+---
+
+## Plants with teeth
+
+A summary of our work in [PNAS](https://www.pnas.org/doi/10.1073/pnas.2306268120) on carnivorous pitcher plants (*Nepenthes*). For more, see the Mathematical Institute [snippet](https://www.maths.ox.ac.uk/node/64967), or listen to the podcast [*Modeling illuminates pitcher plant evolution*](https://www.pnas.org/post/podcast/modeling-illuminates-pitcher-plant-evolution).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gBIJwVOsPok?si=mOkmwmSaU-WPiXIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

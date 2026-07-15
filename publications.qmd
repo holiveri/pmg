@@ -1,0 +1,21 @@
+## Selected publications
+
+**[Construction costs and tradeoffs in carnivorous pitcher plant leaves: towards a pitcher leaf economics spectrum](https://doi.org/10.1093/aob/mcaf024)**  
+K. J. Gilbert, D. Armitage, U. Bauer, K. Fukushima, L. Gaume, R. Love, Q. Lin, S. Liu, S. Martin-Eberhardt, J. Millett, T. Renner, M. Scharmann, and C. Thorogood  
+*Annals of Botany*, 135(7), 1261–1280, 2025
+
+**[Uncovering the mechanical secrets of the squirting cucumber](https://doi.org/10.1073/pnas.2410420121)**  
+F. Box, D. E. Moulton, D. Vella, Y. Bhagotra, T. Lowe, A. Goriely, and C. J. Thorogood  
+*Proceedings of the National Academy of Sciences*, 121(50), e2410420121, 2024
+
+**[Mechanics reveals the role of peristome geometry in prey capture in carnivorous pitcher plants (*Nepenthes*)](https://doi.org/10.1073/pnas.2306268120)**  
+D. E. Moulton, H. Oliveri, A. Goriely, and C. J. Thorogood  
+*Proceedings of the National Academy of Sciences*, 120(38), e2306268120, 2023
+
+**[Gigantic floating leaves occupy a large surface area at an economical material cost](https://doi.org/10.1126/sciadv.abg3790)**  
+F. Box, A. Erlich, J. H. Guan, and C. Thorogood  
+*Science Advances*, 8(6), eabg3790, 2022
+
+**[Guided droplet transport on synthetic slippery surfaces inspired by a pitcher plant](https://doi.org/10.1098/rsif.2019.0323)**  
+F. Box, C. Thorogood, and J. H. Guan  
+*Journal of the Royal Society Interface*, 16(158), 20190323, 2019

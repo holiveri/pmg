@@ -1,0 +1,128 @@
+---
+title: "Plant Modelling Group"
+---
+
+::: {.intro}
+
+## About us
+
+Our interdisciplinary team crosses the physical-life science divide. We explore how living organisms – especially plants – adapt and evolve, using mathematical modelling, to address long-standing evolutionary questions. By combining biology with modelling and mechanics, we seek to uncover the principles underlying plant form and function and translate these insights into innovative technologies inspired by nature.
+
+We answer questions such as:
+
+- How does the squirting cucumber squirt? 
+- Why are the world’s largest flowers gigantic?
+- How does geometry influence prey capture in carnivorous plants? 
+- How do giant waterlilies organise themselves on the water’s surface?
+- Can adaptations to life in extreme environments inspire novel technologies?
+
+## News
+
+::: {.news-carousel}
+
+[‹]{#news-prev .news-button}
+
+::: {.news-window}
+::: {.news-track}
+
+
+::: {.news-item .active}
+**July 2026** · Creation of the *Plant Modelling Group*.
+:::
+
+::: {.news-item .active}
+**June 2026** · New paper in *Quantitative Plant Biology*: [*Towards a hydromechanical theory of plant active matter*](https://www.cambridge.org/core/journals/quantitative-plant-biology/article/towards-a-hydromechanical-theory-of-plant-active-matter/50D8AB246D02C0B6FAAE3D81FF9762EA).
+:::
+
+::: {.news-item .active}
+
+:::: {.columns}
+::: {.column width="30%"}
+::: {.center}
+[![](images/pnas.2023.120.issue-38.cover.webp){width="50%"}](https://www.pnas.org/toc/pnas/120/38)
+:::
+:::
+
+::: {.column width="70%"}
+**September 2023** · Carnivorous pitcher plants on the cover of PNAS.
+:::
+
+::::
+
+:::
+
+:::
+:::
+
+[›]{#news-next .news-button}
+
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".news-track");
+  const previous = document.getElementById("news-prev");
+  const next = document.getElementById("news-next");
+
+  if (!track || !previous || !next) return;
+
+  let items = Array.from(track.querySelectorAll(".news-item"));
+  if (!items.length) return;
+
+  // Clone first and last items for seamless looping
+  const firstClone = items[0].cloneNode(true);
+  const lastClone = items[items.length - 1].cloneNode(true);
+
+  firstClone.classList.add("clone");
+  lastClone.classList.add("clone");
+
+  track.insertBefore(lastClone, items[0]);
+  track.appendChild(firstClone);
+
+  items = Array.from(track.querySelectorAll(".news-item"));
+
+  // Start on the first real item, because index 0 is the last clone
+  let current = 1;
+
+  function setPosition(animated = true) {
+    track.style.transition = animated ? "transform 0.45s ease" : "none";
+    track.style.transform = `translateX(-${current * 100}%)`;
+  }
+
+  setPosition(false);
+
+  function moveLeft() {
+    current += 1;
+    setPosition(true);
+  }
+
+  function moveRight() {
+    current -= 1;
+    setPosition(true);
+  }
+
+  previous.addEventListener("click", function (event) {
+  event.preventDefault();
+  moveRight();
+});
+
+next.addEventListener("click", function (event) {
+  event.preventDefault();
+  moveLeft();
+});
+
+  track.addEventListener("transitionend", function () {
+    // If we moved before the first real item, jump to the last real item
+    if (current === 0) {
+      current = items.length - 2;
+      setPosition(false);
+    }
+
+    // If we moved after the last real item, jump to the first real item
+    if (current === items.length - 1) {
+      current = 1;
+      setPosition(false);
+    }
+  });
+});
+</script>
