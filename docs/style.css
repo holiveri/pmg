@@ -322,3 +322,21 @@ a:hover {
 .spacer {
   height: 2rem;
 }
+
+/* Restore normal bold and italic text */
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+  color: inherit;
+}
+
+strong em,
+em strong {
+  font-weight: 700;
+  font-style: italic;
+  color: inherit;
+}
